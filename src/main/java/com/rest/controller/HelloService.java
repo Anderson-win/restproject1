@@ -41,6 +41,7 @@ public class HelloService {
 		List<Teacher> list = new ArrayList<>();
 		list.add(new Teacher(1,"李老师","大禹小学"));
 		list.add(new Teacher(1,"雷老师","胜利小学"));
+		list.add(new Teacher(1,"aaa老师","bbb小学"));
 		return list;
 	}
 }
